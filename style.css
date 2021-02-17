@@ -1,6 +1,7 @@
 body{
 padding-top:800px;
 margin:0;
+text-align:center;
 }
 .profile{
 width:175px;
@@ -37,7 +38,7 @@ font-weight:300;
 #name{
 font-size:30px;
 line-height:1.2;
-font-family:inherit;
+font-family: 'Pacifico', cursive;
 font-weight:300;
 }
 #bio{
@@ -84,4 +85,13 @@ font-size::20px;
 }
 .links:hover{
 background-color:antiquewhite;
+}
+a{
+text-decoration:none;
+}
+.article:hover{
+color:plum;
+}
+html{
+scroll-behaviour:smooth;
 }
